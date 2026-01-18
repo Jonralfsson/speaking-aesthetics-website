@@ -1,6 +1,6 @@
 console.log("Script geladen");
 // 1. URL zu deiner Google-Sheet-Datenquelle
-const sheetURL = "https://opensheet.elk.sh/2PACX-1vQv6WwQZ4w-MoMcbRIFQxPnKWAlMlregftEd1gflv7O7UQ7aWYdBk-UrHZSpwDQmMtK6l3DxiOy81hr/Sheet1";
+const sheetURL = "https://opensheet.elk.sh/1O8KWdg1t1EdtAMxyhFYq6FrK0PCK4r-R_to23br0vq0/Sheet1";
 
 // 2. Daten aus dem Sheet laden
 fetch(sheetURL)
