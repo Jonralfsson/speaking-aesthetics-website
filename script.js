@@ -1,5 +1,5 @@
 // 1. URL zu deiner Google-Sheet-Datenquelle
-const sheetURL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQv6WwQZ4w-MoMcbRIFQxPnKWAlMlregftEd1gflv7O7UQ7aWYdBk-UrHZSpwDQmMtK6l3DxiOy81hr/pubhtml";
+const sheetURL = "https://opensheet.elk.sh/2PACX-1vQv6WwQZ4w-MoMcbRIFQxPnKWAlMlregftEd1gflv7O7UQ7aWYdBk-UrHZSpwDQmMtK6l3DxiOy81hr/Sheet1";
 
 // 2. Daten aus dem Sheet laden
 fetch(sheetURL)
