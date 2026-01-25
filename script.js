@@ -16,7 +16,7 @@ fetch(sheetURL)
       div.innerHTML = `
         <h2>${item.titel}</h2>
         <p>${item.beschreibung}</p>
-        <img src="${item.bild}" alt="${item.titel}" width="300">
+        <img src="${item.bild}" alt="${item.titel}" width="900">
       `;
 
       container.appendChild(div);
