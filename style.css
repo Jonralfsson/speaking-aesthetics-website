@@ -1,0 +1,44 @@
+/* Entfernt Standard-Abstände und setzt Grundschrift */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Überschrift oben mittig */
+h1 {
+  text-align: center;      /* Text horizontal zentrieren */
+  margin: 60px 0;          /* Abstand oben & unten */
+}
+
+/* Container für alle Portfolio-Einträge */
+#portfolio {
+  display: flex;           /* Aktiviert Flexbox */
+  flex-direction: column;  /* Einträge untereinander */
+  align-items: center;     /* Horizontal zentriert */
+  gap: 100px;              /* Abstand zwischen Einträgen */
+}
+
+/* Ein einzelner Eintrag (kommt aus dem JS) */
+.portfolio-item {
+  max-width: 900px;        /* Maximale Breite */
+  text-align: center;      /* Text zentrieren */
+}
+
+/* Titel aus dem Sheet */
+.portfolio-item h2 {
+  font-size: 28px;
+  margin-bottom: 16px;
+}
+
+/* Beschreibungstext */
+.portfolio-item p {
+  font-size: 18px;
+  margin-bottom: 32px;
+}
+
+/* Bilder */
+.portfolio-item img {
+  width: 100%;             /* Passt sich der Breite an */
+  height: auto;            /* Seitenverhältnis bleibt */
+  display: block;
+}
