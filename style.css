@@ -2,6 +2,22 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
+  /*
+FARB-ÜBERSICHT (Hex-Codes)
+
+Weiß       #ffffff
+Hellgrau   #f5f5f5
+Grau       #cccccc
+Schwarz    #000000
+Dunkelblau #0d1b2a
+Blau       #1e90ff
+Grün       #2ecc71
+Rot        #e74c3c
+Gelb       #f1c40f
+Lila       #9b59b6
+*/
+  background-color: #000000;
+
 }
 
 /* Überschrift oben mittig */
