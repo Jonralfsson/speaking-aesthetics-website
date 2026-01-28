@@ -123,3 +123,15 @@ h1 {
     height: 315px;
   }
 }
+/* Videos untereinander mit Abstand */
+.video-item {
+  margin-bottom: 30px; /* Abstand zwischen den Videos */
+}
+
+.video-item iframe {
+  width: 100%;   /* volle Breite */
+  max-width: 560px; /* optional: maximale Breite */
+  height: 315px; /* Höhe anpassen */
+  display: block;
+  margin: 0 auto; /* zentriert */
+}
