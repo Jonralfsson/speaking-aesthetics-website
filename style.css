@@ -85,3 +85,41 @@ h1 {
   height: auto;            /* Seitenverhältnis bleibt */
   display: block;
 }
+
+/* Video Page Styling */
+.video-section {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.video-section h1 {
+  margin-bottom: 10px;
+  font-size: 2.2em;
+}
+
+.video-section p {
+  margin-bottom: 30px;
+  font-size: 1.1em;
+  color: #555;
+}
+
+/* Grid for videos */
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+/* Each video item */
+.video-item iframe {
+  width: 100%;
+  height: 200px;
+}
+
+@media (min-width: 768px) {
+  .video-item iframe {
+    height: 315px;
+  }
+}
